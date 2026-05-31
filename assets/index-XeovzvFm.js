@@ -395,7 +395,7 @@ Yêu cầu đặc biệt:
 - Phù hợp với trình độ ${z}
 - Có kỹ thuật/phương pháp đặc trưng của chủ đề
 - JSON Object không được phép vi phạm lỗi exit bracket incorrectly ví dụ như dư dấu "{}" hay dấu "[]",....
-- Tránh sử dụng quá nhiều Latex Expression, thay vào đó sử dụng như SumSigma() thay cho kí hiệu sigma, "^" cho exponential expression, ">=" cho greater than or equal to, Integral(function, variable, from lower bound, to upper bound) cho tích phân, F(x) là nguyên hàm f(x), f'(x) là nguyên hàm của f(x),...
+- Tránh sử dụng quá nhiều Latex Expression, thay vào đó sử dụng như SumSigma() thay cho kí hiệu sigma, "^" cho exponential expression, ">=" cho greater than or equal to, Integral(function, variable, from lower bound, to upper bound) cho tích phân (bắt buộc có trong hàm phải ghi "from" ... "to"...), F(x) là nguyên hàm f(x), f'(x) là nguyên hàm của f(x), sqrt(f(x)) cho square root, sqrt(f(x))^y cho root bậc y
 Trả lời CHÍNH XÁC theo định dạng JSON sau, KHÔNG thêm bất kỳ text nào khác:
 {
   "problems": [
